@@ -1,0 +1,43 @@
+// Helpers
+@import './Helpers/variables';
+@import './Helpers/mixin';
+@import './Helpers/extend';
+
+// Vendors
+
+// Base
+@import './Base/reset';
+@import './Base/customize';
+
+// Layouts
+@import './Layouts/sidebarMini';
+@import './Layouts/header';
+@import './Layouts/intro';
+@import './Layouts/courses';
+@import './Layouts/viewing';
+@import './Layouts/banner';
+@import './Layouts/categories';
+@import './Layouts/students';
+@import './Layouts/partners';
+@import './Layouts/jobs';
+@import './Layouts/footer';
+
+// Components
+@import './Components/button';
+@import './Components/cover';
+@import './Components/cards';
+// Pages
+@import './Pages/home';
+
+// Theme
+@import './Theme/dark/sidebarMiniDark';
+@import './Theme/dark/resetDark';
+@import './Theme/dark/headerDark';
+@import './Theme/dark/buttonDark';
+@import './Theme/dark/coursesDark';
+@import './Theme/dark/cardsDark';
+@import './Theme/dark/categoriesDark';
+@import './Theme/dark/studentsDark';
+@import './Theme/dark/partnersDark';
+@import './Theme/dark/jobsDark';
+@import './Theme/dark/footerDark';
